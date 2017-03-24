@@ -9,3 +9,5 @@ Demonstrates how VSCode's builtin Markdown preview can be extended by other exte
 1. Using a VSCode insiders from March 20th+
 1. Install the VSIX for this extension
 1. Add the setting `"markdown.enableExperimentalExtensionApi": true` to your workspace.
+
+
