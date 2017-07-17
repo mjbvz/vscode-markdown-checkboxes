@@ -11,7 +11,7 @@
         "node_modules",
         ".vscode-test"
     ],
-    "files": {
+    "files": [
         "index.js"
-    }
+    ]
 }

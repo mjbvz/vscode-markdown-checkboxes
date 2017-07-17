@@ -19,7 +19,7 @@
   ],
   "activationEvents": [],
   "contributes": {
-    "markdownit.plugins": true
+    "markdown.markdownItPlugins": true
   },
   "main": "./index.js",
   "scripts": {
