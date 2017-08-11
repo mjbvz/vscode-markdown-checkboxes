@@ -1,8 +1,9 @@
 {
   "name": "markdown-checkbox",
   "displayName": "Markdown Checkboxes",
-  "description": "Adds checkbox support to VSCode's built-in markdown preview",
-  "version": "0.0.1",
+  "description": "Adds checkbox support to the built-in markdown preview",
+  "version": "0.0.2",
+  "icon": "logo/logox128.png",
   "publisher": "bierner",
   "license": "MIT",
   "repository": {
@@ -12,7 +13,7 @@
     "url": "https://github.com/mjbvz/vscode-markdown-checkboxes/issues"
   },
   "engines": {
-    "vscode": "^1.8.0"
+    "vscode": "^1.15.0"
   },
   "categories": [
     "Other"

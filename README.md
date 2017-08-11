@@ -1,12 +1,8 @@
-# VSCode Markdown Checkbox
+[![](https://vsmarketplacebadge.apphb.com/version/bierner.markdown-checkbox.svg)](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
 
-> **⚠️Warning⚠️** This extension depends on a new vscode API that is only present in VSCode 1.15 insiders
+Adds checkbox support to VS Code's built-in markdown preview:
 
-Demonstrates how VSCode's builtin Markdown preview can be extended by other extensions. This extension adds checkbox support to the preview.
+![](https://github.com/mjbvz/vscode-markdown-checkboxes/raw/master/docs/example.png)
 
-## Enabling
-
-1. Using a VSCode 1.15 insiders from July 16th+
-1. Install the VSIX for this extension
-
-
+# Features 
+- Adds support for Github's `- [ ]` and `- [x]` checkbox syntax to VS Code's built-in markdown preview
