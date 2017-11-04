@@ -1,5 +1,6 @@
 {
   "name": "markdown-checkbox",
+  "version": "0.0.4",  
   "displayName": "Markdown Checkboxes",
   "description": "Adds checkbox support to the built-in markdown preview",
   "keywords": [
@@ -7,10 +8,9 @@
     "checkbox",
     "checkboxes",
     "github",
-    "tasklist",
-    "task list"
+    "task list",
+    "multi-root ready"
   ],
-  "version": "0.0.3",
   "icon": "logo/logox128.png",
   "publisher": "bierner",
   "license": "MIT",
