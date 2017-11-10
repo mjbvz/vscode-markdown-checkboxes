@@ -2,7 +2,7 @@
 
 Adds checkbox support to VS Code's built-in markdown preview:
 
-![](https://github.com/mjbvz/vscode-markdown-mermaid/raw/master/docs/example.png)
+![](https://raw.githubusercontent.com/mjbvz/vscode-markdown-checkboxes/master/docs/example.png)
 
 # Features 
 - Adds support for Github's `- [ ]` and `- [x]` checkbox syntax to VS Code's built-in markdown preview
