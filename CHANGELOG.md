@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.0 - January 22, 2018
+- Don't show list bullets next to checkboxes
+
 ## 0.0.5 - November 10, 2017
 - Fix preview image
 
