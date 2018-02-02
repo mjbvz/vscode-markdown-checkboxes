@@ -1,6 +1,6 @@
 {
   "name": "markdown-checkbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Markdown Checkboxes",
   "description": "Adds checkbox support to the built-in markdown preview",
   "keywords": [
