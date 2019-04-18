@@ -35,13 +35,7 @@
     ]
   },
   "main": "./index.js",
-  "scripts": {
-    "vscode:prepublish": "",
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
-  "devDependencies": {
-    "vscode": "^1.0.0"
-  },
+  "scripts": {},
   "dependencies": {
     "markdown-it-task-lists": "^2.0.0"
   }
