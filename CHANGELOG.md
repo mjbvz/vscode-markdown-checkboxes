@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.2 - April 18, 2019
+- Set explicit `extensionKind` for VS Code compatability.
+
 ## 0.1.1 - Feburary 02, 2018
 - Fixed nested task list indentation
 
