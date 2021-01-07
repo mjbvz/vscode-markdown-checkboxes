@@ -37,7 +37,10 @@
       "properties": {
           "vscode-markdown-checkboxes.itTaskListsOptions": {
               "type": "object",
-              "description": "Options to be passed to markdown-it-task-lists"
+              "description": "Options to be passed to markdown-it-task-lists",
+              "default": {
+                "enabled": true
+              }
           }
       }
   }
