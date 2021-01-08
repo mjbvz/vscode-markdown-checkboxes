@@ -31,7 +31,27 @@
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
       "checkboxes.css"
-    ]
+    ],
+    "configuration": {
+      "title": "Markdown Checkboxes Options",
+      "properties": {
+          "vscode-markdown-checkboxes.enable": {
+              "type": "boolean",
+              "description": "Enable checkboxes in markdown preview.",
+              "default": true
+          },
+          "vscode-markdown-checkboxes.label" : {
+            "type": "boolean",
+            "markdownDescription": "Wrap the rendered list items in a `<label>` element.",
+            "default": false
+          },
+          "vscode-markdown-checkboxes.labelAfter" : {
+            "type": "boolean",
+            "markdownDescription": "Adds the label after the checkbox. Only applies when `#vscode-markdown-checkboxes.label#` is set to `true`.",
+            "default": false
+          }
+      }
+  }
   },
   "main": "./index.js",
   "scripts": {},
