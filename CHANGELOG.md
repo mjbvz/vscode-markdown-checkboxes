@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.2.0 - January 08, 2021
+- Enable checkboxes by default.
+- Added configuration settings for checkboxes. Thanks @cameronevans!
+
 ## 0.1.3 - April 23, 2019
 - Remove explicit `extensionKind`. No longer required
 
