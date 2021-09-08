@@ -6,7 +6,7 @@ function activate() {
     return {
         extendMarkdownIt(/** @type {import('markdown-it')*/ md) {
             const taskList = require('markdown-it-task-lists');
-            return md.use(function () {
+            return md.use(() => {
                 const config = workspace.getConfiguration('markdown-checkboxes');
                 const x = md.use(taskList, {
                     enabled: config.get('enable'),
