@@ -1,6 +1,9 @@
 # Change Log
 
-## 0.2.0 - January 08, 2021
+## 0.3.0 - September 8, 2021
+- Add support for running in browsers
+
+## 0.2.0 - January 8, 2021
 - Enable checkboxes by default.
 - Added configuration settings for checkboxes. Thanks @cameronevans!
 
