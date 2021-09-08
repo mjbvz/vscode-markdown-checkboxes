@@ -52,13 +52,25 @@
       }
     }
   },
-  "main": "./index.js",
-  "browser": "./index.js",
-  "scripts": {},
+  "main": "./dist/index.js",
+  "browser": "./dist/browser/index.js",
+  "scripts": {
+    "watch": "webpack --watch --config ./build/webpack.config.js",
+    "package": "webpack --mode production --config ./build/webpack.config.js",
+    "lint": "eslint -c .eslintrc.js --ext .ts src",
+    "vscode:prepublish": "npm run package ; npm run package-web",
+    "watch-web": "webpack --watch --config ./build/web-extension.webpack.config.js",
+    "package-web": "webpack --mode production --devtool hidden-source-map --config ./build/web-extension.webpack.config.js"
+  },
   "dependencies": {
     "markdown-it-task-lists": "^2.1.1"
   },
   "devDependencies": {
-    "@types/markdown-it": "^12.0.1"
+    "@types/markdown-it": "^12.0.1",
+    "@types/vscode": "^1.60.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
   }
 }
