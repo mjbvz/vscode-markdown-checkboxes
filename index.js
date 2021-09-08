@@ -17,7 +17,6 @@ function activate(context) {
                     label: config.get('label'),
                     labelAfter: config.get('labelAfter')
                 });
-                console.log(y.core.ruler.__rules__)
                 return md;
             });
         }
