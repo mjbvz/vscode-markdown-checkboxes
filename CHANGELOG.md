@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.1 - September 8, 2021
+- Webpack extension. 
+
 ## 0.3.0 - September 8, 2021
 - Add support for running in browsers
 
