@@ -1,11 +1,12 @@
+// @ts-check
 'use strict';
 const { workspace } = require('vscode');
 
-function activate(context) {
+function activate() {
     return {
         extendMarkdownIt(/** @type {import('markdown-it')*/ md) {
             const taskList = require('markdown-it-task-lists');
-            return md.use(function (...args) {
+            return md.use(function () {
                 const config = workspace.getConfiguration('markdown-checkboxes');
                 const x = md.use(taskList, {
                     enabled: config.get('enable'),
