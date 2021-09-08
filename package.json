@@ -53,7 +53,7 @@
     }
   },
   "main": "./dist/index.js",
-  "browser": "./dist/browser/index.js",
+  "browser": "./dist/web/index.js",
   "scripts": {
     "watch": "webpack --watch --config ./build/webpack.config.js",
     "package": "webpack --mode production --config ./build/webpack.config.js",
