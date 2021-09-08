@@ -8,8 +8,7 @@
     "checkbox",
     "checkboxes",
     "github",
-    "task list",
-    "multi-root ready"
+    "task list"
   ],
   "icon": "logo/logox128.png",
   "publisher": "bierner",
@@ -54,6 +53,7 @@
     }
   },
   "main": "./index.js",
+  "browser": "./index.js",
   "scripts": {},
   "dependencies": {
     "markdown-it-task-lists": "^2.1.1"
