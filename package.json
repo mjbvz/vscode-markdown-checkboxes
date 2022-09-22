@@ -1,6 +1,6 @@
 {
   "name": "markdown-checkbox",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "displayName": "Markdown Checkboxes",
   "description": "Adds checkbox support to the built-in markdown preview",
   "keywords": [
@@ -26,10 +26,10 @@
     "Other"
   ],
   "activationEvents": [],
-	"extensionKind": [
-		"workspace"
-	],
-	"contributes": {
+  "extensionKind": [
+    "workspace"
+  ],
+  "contributes": {
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
       "checkboxes.css"

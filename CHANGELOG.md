@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.3 - September 22, 2022
+- Set `extensionKind.workspace` to support remote workspaces. Thanks @PeterWone!
+
 ## 0.3.1 - September 8, 2021
 - Webpack extension. 
 
