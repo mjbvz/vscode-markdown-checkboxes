@@ -26,7 +26,10 @@
     "Other"
   ],
   "activationEvents": [],
-  "contributes": {
+	"extensionKind": [
+		"workspace"
+	],
+	"contributes": {
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
       "checkboxes.css"
