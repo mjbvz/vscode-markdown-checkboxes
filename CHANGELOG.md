@@ -1,7 +1,7 @@
 # Change Log
 
-## 0.3.3 - September 22, 2022
-- Set `extensionKind.workspace` to support remote workspaces. Thanks @PeterWone!
+## 0.4.0 - November 3, 2022
+- Enable checkboxes inside markdown cells in notebooks.
 
 ## 0.3.3 - September 22, 2022
 - Set `extensionKind.workspace` to support remote workspaces. Thanks @PeterWone!
